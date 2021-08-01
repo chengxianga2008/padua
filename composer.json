@@ -1,0 +1,23 @@
+{
+    "name": "example/padua",
+    "license": "MIT",
+    "type": "project",
+    "description": "padua code.",
+    "autoload": {
+        "psr-4" : {
+            "App\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "Tests\\" : "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "monolog/monolog": "^2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
